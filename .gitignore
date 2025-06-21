@@ -1,0 +1,7 @@
+datasets/
+checkpoints/
+predictions/
+raw_images/
+tiles_1024/
+points_annotated/
+.conda/
