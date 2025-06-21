@@ -1,7 +1,9 @@
-datasets/
+datasets/myownv1/
+datasets/Sample/
 checkpoints/
 predictions/
 raw_images/
 tiles_1024/
 points_annotated/
 .conda/
+train_data/
