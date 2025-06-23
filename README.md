@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Chuẩn bị dữ liệu
 
-Bước 1: Cắt ảnh lớn thành tile 1024×1024 bằng lệnh:
+Bước 1: Cắt ảnh lớn thành tile 512x512 bằng lệnh:
 
 python crop_tiles.py
 

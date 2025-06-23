@@ -2,7 +2,7 @@ import os
 import cv2
 from pathlib import Path
 
-tile_size=1024
+tile_size=512
 
 def tile_image(image_path, output_dir, tile_size=tile_size):
     os.makedirs(output_dir, exist_ok=True)
@@ -39,5 +39,5 @@ def tile_folder(input_folder, output_folder, tile_size=tile_size):
 # 🧪 Ví dụ sử dụng:
 if __name__ == "__main__":
     input_folder = "raw_images"        # 📂 Chứa ảnh gốc .tif, .png, .jpg
-    output_folder = "tiles_1024"       # 📂 Kết quả tile
+    output_folder = "unlabel_data"       # 📂 Kết quả tile
     tile_folder(input_folder, output_folder)
